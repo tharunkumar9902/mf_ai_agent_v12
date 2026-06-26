@@ -3,12 +3,12 @@
 ## Fund 1: SBI Small Cap Fund - Direct Plan - Growth
 - Scheme Code: 125497
 - Fund House: SBI Mutual Fund
-- Metrics: {'latest_nav': 205.0655, 'total_return_percent': 1466.65, 'one_month_return_percent': 5.94, 'six_month_return_percent': 6.48, 'one_year_return_percent': 5.44, 'three_year_return_percent': 49.49, 'cagr_3y_percent': 14.34}
+- Metrics: {'latest_nav': 203.9157, 'total_return_percent': 1457.87, 'one_month_return_percent': 4.99, 'six_month_return_percent': 5.88, 'one_year_return_percent': 3.28, 'three_year_return_percent': 48.65, 'cagr_3y_percent': 14.13}
 
 ## Fund 2: Parag Parikh Flexi Cap Fund - Regular Plan - Growth
 - Scheme Code: 122640
 - Fund House: PPFAS Mutual Fund
-- Metrics: {'latest_nav': 82.039, 'total_return_percent': 720.46, 'one_month_return_percent': -1.38, 'six_month_return_percent': -5.67, 'one_year_return_percent': -2.31, 'three_year_return_percent': 49.43, 'cagr_3y_percent': 14.33}
+- Metrics: {'latest_nav': 81.8366, 'total_return_percent': 718.44, 'one_month_return_percent': -1.37, 'six_month_return_percent': -5.9, 'one_year_return_percent': -3.08, 'three_year_return_percent': 49.06, 'cagr_3y_percent': 14.23}
 
 ## Summary
-Based on available 1-year return data, SBI Small Cap Fund - Direct Plan - Growth has outperformed by about 7.75%.
+SBI Small Cap Fund - Direct Plan - Growth performed better over the last one year with a difference of 6.36%.

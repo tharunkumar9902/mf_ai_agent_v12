@@ -1,5 +1,5 @@
 import streamlit as st
-from frontend.utils.api_client import fund_lookup
+from utils.api_client import fund_lookup
 
 st.title("Fund Lookup")
 

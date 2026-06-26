@@ -1,5 +1,5 @@
 import streamlit as st
-from frontend.utils.api_client import chat
+from utils.api_client import chat
 
 st.title("Chat with Mutual Fund AI Agent")
 

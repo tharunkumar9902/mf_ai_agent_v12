@@ -1,5 +1,5 @@
 import streamlit as st
-from frontend.utils.api_client import history
+from utils.api_client import history
 
 st.title("Chat History")
 

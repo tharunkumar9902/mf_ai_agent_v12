@@ -6,7 +6,6 @@ from app.schemas.request import ChatRequest, CompareRequest
 from app.schemas.response import ChatResponse, CompareResponse, HistoryResponse, HistoryItem, FundSummary
 from app.services.agent_service import run_agent
 from app.services.compare_service import compare_two_funds
-from app.services.fund_service import get_fund_detail
 from app.tools.db_tools import save_chat, fetch_history
 from app.core.exceptions import FundNotFoundError, MFAPIError
 
@@ -33,17 +32,6 @@ def compare(request: CompareRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@router.get("/fund/{query}")
-def fund_detail(query: str):
-    try:
-        result = get_fund_detail(query)
-        return result
-    except FundNotFoundError as e:
-        raise HTTPException(status_code=404, detail=str(e))
-    except MFAPIError as e:
-        raise HTTPException(status_code=502, detail=str(e))
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/history/{user_id}", response_model=HistoryResponse)
 def history(user_id: str, db: Session = Depends(get_db)):

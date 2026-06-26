@@ -31,3 +31,8 @@ class CompareResponse(BaseModel):
     fund_1: FundSummary
     fund_2: FundSummary
     summary: str
+class CompareResponse(BaseModel):
+    fund_1: FundSummary
+    fund_2: FundSummary
+    summary: str
+    ai_analysis: str
